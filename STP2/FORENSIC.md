@@ -84,6 +84,15 @@ https://www.google.com/search?q=flag3+%3D+aDBwM190aDE1Xw%3D%3D&oq=flag3+%3D+aDBw
 **flag3 = aDBwM190aDE1Xw==** which is **h0p3_th15_**
 so i got part 1 3 and 5 i have to find part 2 and 4, i have tried netscan malfind and stuff, will keep trying.
 
+got the 4th flag it was in the memdump of the notepad , i was trying different commands and then chatgpt said that Select-stirng misses few utf 16 wide characters so i went to linux and tried 
+```
+
+strings -el 2592.dmp|grep -i "flag"
+```
+and i got the fourth flag **flag4 = YjNuM2YxNzVfeTB1Xw==** pretty basic but i didnt have the knowledge ..
+got flag4 = **b3n3f175_y0u_**
+
+FLAG = bi0sctf{w3lc0m3_{FLAG2}h0p3_th15_b3n3f175_y0u_m0r3_13337431}
 
 ## resources 
 https://www.youtube.com/watch?v=Uk3DEgY5Ue8 , https://youtu.be/EqGoGwVCVwM?si=WrJy5AoL8IOlgCBu ,https://www.youtube.com/watch?v=VK3fvNFGAzE
