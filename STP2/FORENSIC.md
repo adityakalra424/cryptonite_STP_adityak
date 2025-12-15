@@ -94,6 +94,13 @@ got flag4 = **b3n3f175_y0u_**
 
 FLAG = bi0sctf{w3lc0m3_{FLAG2}h0p3_th15_b3n3f175_y0u_m0r3_13337431}
 
+The flag2 was in the memdump of the paint, opened the memdump of the paint in gimp and was changing the parameters like width and height for hours and got some visible text which was a base64 encoded string `dDBfZGYxcl9sNGl1Xw==`. 
+```
+echo "dDBfZGYxcl9sNGl1Xw==" | base64 -d
+```
+and got flag2 = t0_df1r_l4iu_
+
+**FLAG = bi0sctf{w3lc0m3_t0_df1r_l4iu_h0p3_th15_b3n3f175_y0u_m0r3_13337431}**
 ## resources 
 https://www.youtube.com/watch?v=Uk3DEgY5Ue8 , https://youtu.be/EqGoGwVCVwM?si=WrJy5AoL8IOlgCBu ,https://www.youtube.com/watch?v=VK3fvNFGAzE
 https://blog.onfvp.com/post/volatility-cheatsheet/ , https://github.com/volatilityfoundation/volatility/releases/tag/2.6.1 
